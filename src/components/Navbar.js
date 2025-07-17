@@ -157,11 +157,11 @@ const Navbar = () => {
  </div>
 
    <div class="mb-5">
-    <label for="price" class="block mb-2 text-sm font-medium text-[#5D4037]">Your password</label>
+    <label for="price" class="block mb-2 text-sm font-medium text-[#5D4037]">Enter Price</label>
     <input type="number" id="price" value={formData.price} onChange={handleChange} class="outline-none text-white text-sm rounded-lg bg-[#5D4037] block w-full p-2.5 placeholder:text-white" placeholder="Enter Price" required />
   </div>
    <div class="mb-5">
-    <label for="quantity" class="block mb-2 text-sm font-medium text-[#5D4037]">Your password</label>
+    <label for="quantity" class="block mb-2 text-sm font-medium text-[#5D4037]">Enter Quantity</label>
     <input type="number" id="quantity" value={formData.quantity} onChange={handleChange} class="outline-none text-white text-sm rounded-lg bg-[#5D4037] block w-full p-2.5 placeholder:text-white" placeholder="Enter Quantity" required />
   </div>
   <div className="mb-5 text-center">
